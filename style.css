@@ -34,6 +34,11 @@ body {
   text-decoration: none;
 }
 
+.navbar nav a.active {
+  color: #0ea5e9;
+  font-weight: bold;
+}
+
 .navbar nav a:hover {
   color: #fff;
 }
@@ -78,17 +83,20 @@ body {
   margin: 1.5rem 0;
 }
 
+/* Stats */
 .stats {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
 }
 
 .stats div {
   background: #1e293b;
   padding: 1rem;
   border-radius: 8px;
+  text-align: center;
 }
 
 /* Sections */
@@ -110,26 +118,6 @@ section {
   padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
-}
-
-.pricing-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.pricing-card p {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.pricing-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
-}
-
-.pricing-card ul li {
-  margin: 0.5rem 0;
 }
 
 /* Footer */
