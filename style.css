@@ -120,6 +120,30 @@ section {
   text-align: center;
 }
 
+/* Team Cards */
+.team-card {
+  padding: 2rem 1rem;
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #0ea5e9;
+}
+
+.team-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.team-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
 /* Footer */
 footer {
   background: #0f172a;
