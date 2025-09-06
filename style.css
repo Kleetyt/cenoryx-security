@@ -32,6 +32,7 @@ body {
   margin: 0 10px;
   color: #aaa;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .navbar nav a.active {
@@ -41,6 +42,10 @@ body {
 
 .navbar nav a:hover {
   color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #0ea5e9;
 }
 
 .nav-buttons .btn {
@@ -57,6 +62,7 @@ body {
   background: #334155;
   color: white;
   text-decoration: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .btn.primary {
@@ -64,7 +70,8 @@ body {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  transform: scale(1.05);
+  filter: brightness(1.15);
 }
 
 /* Hero */
@@ -99,6 +106,12 @@ body {
   padding: 1rem;
   border-radius: 8px;
   text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stats div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* Sections */
@@ -122,6 +135,12 @@ section {
   text-align: center;
   position: relative;
   z-index: 1;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
 }
 
 /* Team Cards */
@@ -133,6 +152,12 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #0ea5e9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #0ea5e9;
 }
 
 .team-card h3 {
