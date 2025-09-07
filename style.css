@@ -178,15 +178,14 @@ footer {
   margin-top: 2rem;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* space between logo and text */
+.logo a {
+  text-decoration: none;
+  color: white;       /* keep it white */
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.logo img {
-  height: 32px; /* adjust size */
-  width: auto;
+.logo a:hover {
+  color: #0ea5e9;     /* highlight on hover */
 }
+
