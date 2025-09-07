@@ -179,13 +179,18 @@ footer {
 }
 
 .logo a {
-  text-decoration: none;
-  color: white;       /* keep it white */
+  text-decoration: none;   /* removes underline */
+  color: white;            /* makes it white */
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.logo a:hover {
-  color: #0ea5e9;     /* highlight on hover */
+.logo a:visited {
+  color: white;            /* prevent purple after clicking */
 }
+
+.logo a:hover {
+  color: #0ea5e9;          /* blue highlight on hover */
+}
+
 
